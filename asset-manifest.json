@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/programacion2_desafio3/static/css/main.1f880b20.css",
-    "main.js": "/programacion2_desafio3/static/js/main.b97f0b0c.js",
+    "main.js": "/programacion2_desafio3/static/js/main.a6aa7869.js",
     "static/media/chat.png": "/programacion2_desafio3/static/media/chat.5e0cdb51c5df3d35da0e.png",
     "static/media/estrella.png": "/programacion2_desafio3/static/media/estrella.fb8c10435ffbe1f7297e.png",
     "static/media/email.png": "/programacion2_desafio3/static/media/email.ea9f787b9a32d2c25313.png",
     "index.html": "/programacion2_desafio3/index.html",
     "static/media/download.svg": "/programacion2_desafio3/static/media/download.53b777c5e4b5c9d35af3267202983c56.svg",
     "main.1f880b20.css.map": "/programacion2_desafio3/static/css/main.1f880b20.css.map",
-    "main.b97f0b0c.js.map": "/programacion2_desafio3/static/js/main.b97f0b0c.js.map"
+    "main.a6aa7869.js.map": "/programacion2_desafio3/static/js/main.a6aa7869.js.map"
   },
   "entrypoints": [
     "static/css/main.1f880b20.css",
-    "static/js/main.b97f0b0c.js"
+    "static/js/main.a6aa7869.js"
   ]
 }
