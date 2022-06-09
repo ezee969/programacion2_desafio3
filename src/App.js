@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/header';
+import React, { useState, useEffect } from 'react';
+import Presentation from './components/Presentation/presentation';
+import Featured from './components/Featured/featured';
+import PaySection from './components/PaySection/pay_section';
+import Testimonials from './components/Testimonial/testimonials';
+import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer';
 
 function App() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setWindowWidth(window.innerWidth);
+    });
+  }, [windowWidth]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-screen max-w-full bg-gray-100'>
+      <Header windowWidth={windowWidth} />
+      <Presentation />
+      <Featured />
+      <PaySection />
+      <Testimonials />
+      <Featured />
+      <Contact />
+      <Footer />
     </div>
   );
 }
