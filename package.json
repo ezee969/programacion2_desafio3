@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yourusername.github.io/repository-name",
   "name": "landing_tailwind",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "prettier-plugin-tailwindcss": "^0.1.11",
     "tailwindcss": "^3.0.24"
