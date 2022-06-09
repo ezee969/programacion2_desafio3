@@ -23,7 +23,6 @@ function App() {
       <Featured />
       <PaySection />
       <Testimonials />
-      <Featured />
       <Contact />
       <Footer />
     </div>
